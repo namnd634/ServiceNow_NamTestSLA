@@ -16,14 +16,14 @@
         <script_true><![CDATA[function onCondition() {
     var ourUser = g_user.hasRole('nam-end-user');
     if (ourUser == true) {
-        g_form.setDisplay('u_incident_assignment_group', 'false');
-		g_form.setDisplay('u_incident_state', 'false');
-		g_form.setDisplay('u_incident_impact', 'false');
-		g_form.setDisplay('u_incident_urgency', 'false');
-		g_form.setDisplay('u_incident_priority', 'false');
-		g_form.setDisplay('sys_created_on', 'false');
-		g_form.setDisplay('u_incident_assigned_to', 'false');
-		g_form.setDisplay('u_ticket_acknowledgement', 'false');
+        g_form.setReadOnly('u_incident_assignment_group', 'true');
+		g_form.setReadOnly('u_incident_state', 'true');
+		g_form.setReadOnly('u_incident_impact', 'true');
+		g_form.setReadOnly('u_incident_urgency', 'true');
+		g_form.setReadOnly('u_incident_priority', 'true');
+		g_form.setReadOnly('sys_created_on', 'true');
+		g_form.setReadOnly('u_incident_assigned_to', 'true');
+		g_form.setReadOnly('u_ticket_acknowledgement', 'true');
 	}
 }]]></script_true>
         <set_values/>
@@ -34,7 +34,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b5ccd7fec34bd2108d241275e4013158</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Hidden fields for end-user</sys_name>
         <sys_overrides/>
         <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
@@ -42,7 +42,7 @@
         <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
         <sys_update_name>sys_ui_policy_b5ccd7fec34bd2108d241275e4013158</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-17 01:27:50</sys_updated_on>
+        <sys_updated_on>2025-01-17 03:41:44</sys_updated_on>
         <table>u_nam_incident</table>
         <ui_type>0</ui_type>
         <view/>
