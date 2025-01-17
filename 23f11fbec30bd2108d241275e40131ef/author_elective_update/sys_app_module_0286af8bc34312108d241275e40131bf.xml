@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Nam Management">b3a9def9c30312108d241275e4013146</application>
+        <assessment/>
+        <device_type/>
+        <filter table="u_nam_incident">u_incident_state=new^EQ<item display_value="New" endquery="false" field="u_incident_state" goto="false" newquery="false" operator="=" or="false" value="new"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Open - Unassigned to</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>u_nam_incident</name>
+        <order>100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>nam-helpdesk</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-17 04:17:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0286af8bc34312108d241275e40131bf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Open - Unassigned</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
+        <sys_update_name>sys_app_module_0286af8bc34312108d241275e40131bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-17 04:18:48</sys_updated_on>
+        <timeline_page/>
+        <title>Open - Unassigned</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</application>
+        <file_path/>
+        <instance_id>8082d2d2ebb7c694e9bbfddacad0cdde</instance_id>
+        <instance_name>dev286046</instance_name>
+        <name>sys_app_module_0286af8bc34312108d241275e40131bf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Nam Management">b3a9def9c30312108d241275e4013146</application><assessment/><device_type/><filter table="u_nam_incident">u_incident_state=new^EQ<item display_value="New" endquery="false" field="u_incident_state" goto="false" newquery="false" operator="=" or="false" value="new"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Open - Unassigned to</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_nam_incident</name><order>100</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>nam-helpdesk</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-17 04:17:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0286af8bc34312108d241275e40131bf</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Open - Unassigned</sys_name><sys_overrides/><sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package><sys_policy/><sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope><sys_update_name>sys_app_module_0286af8bc34312108d241275e40131bf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-17 04:18:48</sys_updated_on><timeline_page/><title>Open - Unassigned</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-275143381</payload_hash>
+        <record_name>Open - Unassigned</record_name>
+        <reverted_from/>
+        <source>be2ef2b5c34712108d241275e4013182</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-17 04:18:48</sys_created_on>
+        <sys_id>5827e7cbc34312108d241275e40131a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194727c2cba0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-17 04:18:48</sys_updated_on>
+        <type>Module</type>
+        <update_guid>dc27e7cbcf43121035eaafdc13f4e2a7</update_guid>
+        <update_guid_history>dc27e7cbcf43121035eaafdc13f4e2a7:-275143381,0dc6e3cb6d4312101e83910379410f39:-284112757</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Open - Unassigned">01a7230fc34312108d241275e40131dd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-17 04:21:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>27bbf2a2532645c8b037536bea66dd24</sys_id>
+        <sys_metadata>0286af8bc34312108d241275e40131bf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open - Unassigned</sys_name>
+        <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
+        <sys_scope_delete display_value="">169c01ada58a459c93bc4e98a68a3610</sys_scope_delete>
+        <sys_update_name>sys_app_module_0286af8bc34312108d241275e40131bf</sys_update_name>
+        <sys_update_version display_value="sys_app_module_0286af8bc34312108d241275e40131bf">5827e7cbc34312108d241275e40131a8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-17 04:21:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
