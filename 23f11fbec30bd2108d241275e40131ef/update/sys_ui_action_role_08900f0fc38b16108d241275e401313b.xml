@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-17 01:30:50</sys_created_on>
+        <sys_id>08900f0fc38b16108d241275e401313b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Resolve.nam-customer-service</sys_name>
+        <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
+        <sys_ui_action display_value="Resolve">c73e9b72c38bd2108d241275e4013163</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_08900f0fc38b16108d241275e401313b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-17 01:30:50</sys_updated_on>
+        <sys_user_role display_value="nam-customer-service" name="nam-customer-service">17e5cf71c38712108d241275e401312e</sys_user_role>
+    </sys_ui_action_role>
+</record_update>

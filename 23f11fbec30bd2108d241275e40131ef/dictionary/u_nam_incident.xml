@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="3b925b32c34bd2108d241275e401312a" extends="task" label="Nam Incident" max_length="40" name="u_nam_incident" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="new" label="Incident State" max_length="40" name="u_incident_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="On Hold" sequence="2" value="on_hold"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="in_progress"/>
+                <element inactive_on_update="false" label="Resolved" sequence="3" value="resolved"/>
+                <element inactive_on_update="false" label="Closed" sequence="4" value="closed"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+            </choice>
+        </element>
+        <element label="Incident Short Description" mandatory="true" max_length="40" name="u_incident_short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Incident Priority" max_length="40" name="u_incident_priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="C1" value="c1"/>
+                <element inactive_on_update="false" label="P2" value="p2"/>
+                <element inactive_on_update="false" label="P1" value="p1"/>
+                <element inactive_on_update="false" label="P3" value="p3"/>
+                <element inactive_on_update="false" label="P4" value="p4"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Incident Urgency" max_length="40" name="u_incident_urgency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Immediate" sequence="0" value="immediate"/>
+                <element inactive_on_update="false" label="Medium" sequence="2" value="medium"/>
+                <element inactive_on_update="false" label="Low" sequence="3" value="low"/>
+                <element inactive_on_update="false" label="High" sequence="1" value="high"/>
+            </choice>
+        </element>
+        <element label="Incident Assignment group" max_length="32" name="u_incident_assignment_group" reference="sys_user_group" type="reference"/>
+        <element label="Incident Description" max_length="40" name="u_incident_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Incident Impact" max_length="40" name="u_incident_impact" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Significant/Large" sequence="1" value="significant/large"/>
+                <element inactive_on_update="false" label="Low" sequence="3" value="low"/>
+                <element inactive_on_update="false" label="Extensive/Widespread" sequence="0" value="extensive/widespread"/>
+                <element inactive_on_update="false" label="Moderate" sequence="2" value="moderate"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Incident Caller" mandatory="true" max_length="32" name="u_incident_caller" reference="sys_user" type="reference"/>
+        <element label="Incident Assigned to" max_length="32" name="u_incident_assigned_to" reference="sys_user" type="reference"/>
+        <element label="Ticket Acknowledgement" max_length="40" name="u_ticket_acknowledgement" read_only="true" type="glide_date_time"/>
+    </element>
+</database>

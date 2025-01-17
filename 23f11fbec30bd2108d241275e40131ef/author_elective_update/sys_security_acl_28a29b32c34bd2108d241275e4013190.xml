@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>u_nam_incident</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-16 08:10:45</sys_created_on>
+        <sys_id>28a29b32c34bd2108d241275e4013190</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_nam_incident</sys_name>
+        <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
+        <sys_update_name>sys_security_acl_28a29b32c34bd2108d241275e4013190</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-16 08:10:45</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</application>
+        <file_path/>
+        <instance_id>8082d2d2ebb7c694e9bbfddacad0cdde</instance_id>
+        <instance_name>dev286046</instance_name>
+        <name>sys_security_acl_28a29b32c34bd2108d241275e4013190</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description/><local_or_existing>Local</local_or_existing><name>u_nam_incident</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-16 08:10:45</sys_created_on><sys_id>28a29b32c34bd2108d241275e4013190</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_nam_incident</sys_name><sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package><sys_policy/><sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope><sys_update_name>sys_security_acl_28a29b32c34bd2108d241275e4013190</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-16 08:10:45</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1186930285</payload_hash>
+        <record_name>u_nam_incident</record_name>
+        <reverted_from/>
+        <source>be2ef2b5c34712108d241275e4013182</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-16 08:10:45</sys_created_on>
+        <sys_id>a4a29b32c34bd2108d241275e4013193</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1946e2a2d270000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-16 08:10:45</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>a8a29b322a4bd210749fb2226d135592</update_guid>
+        <update_guid_history>a8a29b322a4bd210749fb2226d135592:1186930285</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-16 08:50:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>47054de2534047a0b47d2f788a5e2400</sys_id>
+        <sys_metadata>28a29b32c34bd2108d241275e4013190</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_nam_incident</sys_name>
+        <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
+        <sys_parent display_value="u_nam_incident">b7925b32c34bd2108d241275e401312d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
+        <sys_scope_delete display_value="">169c01ada58a459c93bc4e98a68a3610</sys_scope_delete>
+        <sys_update_name>sys_security_acl_28a29b32c34bd2108d241275e4013190</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_28a29b32c34bd2108d241275e4013190">a4a29b32c34bd2108d241275e4013193</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-16 08:50:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
