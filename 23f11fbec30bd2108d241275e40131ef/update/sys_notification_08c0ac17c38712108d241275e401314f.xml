@@ -6,7 +6,7 @@
         <active>true</active>
         <advanced_event_condition>false</advanced_event_condition>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
-        <condition table="u_nam_incident">u_incident_stateCHANGESTOin_progress^EQ<item display_value="In Progress" endquery="false" field="u_incident_state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="in_progress"/>
+        <condition table="u_nam_incident">u_incident_stateCHANGESTOresolved^EQ<item display_value="Resolved" endquery="false" field="u_incident_state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="resolved"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <description/>
@@ -16,7 +16,7 @@
         <event_parm_2>false</event_parm_2>
         <event_parm_2_table>sys_user</event_parm_2_table>
         <include_originator>false</include_originator>
-        <name>State changes to In Progres notification</name>
+        <name>State changes to Resolved notification</name>
         <order>100</order>
         <recipient_fields>u_incident_caller</recipient_fields>
         <recipient_users/>
@@ -36,19 +36,19 @@
       })(parm1,parm2);]]></script>
         <sys_class_name>sys_notification</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-17 01:49:15</sys_created_on>
+        <sys_created_on>2025-01-17 08:31:12</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>90b40b83c3cb16108d241275e401314f</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>State changes to In Progres notification</sys_name>
+        <sys_id>08c0ac17c38712108d241275e401314f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>State changes to Resolved notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
-        <sys_update_name>sys_notification_90b40b83c3cb16108d241275e401314f</sys_update_name>
+        <sys_update_name>sys_notification_08c0ac17c38712108d241275e401314f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-17 08:30:05</sys_updated_on>
+        <sys_updated_on>2025-01-17 08:31:12</sys_updated_on>
         <table>u_nam_incident</table>
         <triggered_by>record_change</triggered_by>
     </sys_notification>

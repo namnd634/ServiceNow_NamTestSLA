@@ -6,21 +6,21 @@
         <is_default>false</is_default>
         <message><![CDATA[${u_incident_short_description}]]></message>
         <message_heading><![CDATA[${number} is ${u_incident_state}]]></message_heading>
-        <name>State changes to In Progres notification</name>
-        <notification display_value="State changes to In Progres notification">90b40b83c3cb16108d241275e401314f</notification>
+        <name>State changes to Resolved notification</name>
+        <notification display_value="State changes to Resolved notification">08c0ac17c38712108d241275e401314f</notification>
         <route display_value="Next Experience Route">bccd1214533201107cd3ddeeff7b1289</route>
         <sys_class_name>sys_notification_next_experience_content</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-17 01:50:18</sys_created_on>
-        <sys_id>0ff48f83c3cb16108d241275e40131c0</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>State changes to In Progres notification</sys_name>
+        <sys_created_on>2025-01-17 08:31:42</sys_created_on>
+        <sys_id>1df0e057c38712108d241275e401310f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>State changes to Resolved notification</sys_name>
         <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
-        <sys_update_name>sys_notification_next_experience_content_0ff48f83c3cb16108d241275e40131c0</sys_update_name>
+        <sys_update_name>sys_notification_next_experience_content_1df0e057c38712108d241275e401310f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-17 08:31:45</sys_updated_on>
+        <sys_updated_on>2025-01-17 08:31:42</sys_updated_on>
         <use_action>false</use_action>
     </sys_notification_next_experience_content>
 </record_update>
