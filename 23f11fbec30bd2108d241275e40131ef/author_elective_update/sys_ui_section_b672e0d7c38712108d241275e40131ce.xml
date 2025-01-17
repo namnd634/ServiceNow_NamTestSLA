@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="b672e0d7c38712108d241275e40131ce" sys_domain="global" table="u_nam_incident" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_incident_work_notes</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-17 08:38:07</sys_created_on>
+            <sys_id>cf7224d7c38712108d241275e4013169</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="u_nam_incident" sys_domain="global" view="Default view">b672e0d7c38712108d241275e40131ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-17 08:38:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-17 08:38:07</sys_created_on>
+            <sys_id>477224d7c38712108d241275e401316a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Nam Incident formatter">e15c170fc30312108d241275e4013179</sys_ui_formatter>
+            <sys_ui_section caption="New Section" display_value="New Section" name="u_nam_incident" sys_domain="global" view="Default view">b672e0d7c38712108d241275e40131ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-17 08:38:07</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>u_nam_incident</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-17 08:38:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b672e0d7c38712108d241275e40131ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_nam_incident</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
+            <sys_update_name>sys_ui_section_b672e0d7c38712108d241275e40131ce</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-17 08:38:07</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</application>
+        <file_path/>
+        <instance_id>8082d2d2ebb7c694e9bbfddacad0cdde</instance_id>
+        <instance_name>dev286046</instance_name>
+        <name>sys_ui_section_b672e0d7c38712108d241275e40131ce</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="b672e0d7c38712108d241275e40131ce" sys_domain="global" table="u_nam_incident" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_incident_work_notes</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-17 08:38:07</sys_created_on><sys_id>cf7224d7c38712108d241275e4013169</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="u_nam_incident" sys_domain="global" view="Default view">b672e0d7c38712108d241275e40131ce</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-17 08:38:07</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>activity.xml</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-17 08:38:07</sys_created_on><sys_id>477224d7c38712108d241275e401316a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Nam Incident formatter">e15c170fc30312108d241275e4013179</sys_ui_formatter><sys_ui_section caption="New Section" display_value="New Section" name="u_nam_incident" sys_domain="global" view="Default view">b672e0d7c38712108d241275e40131ce</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-17 08:38:07</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New Section</caption><header>false</header><name>u_nam_incident</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-17 08:38:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b672e0d7c38712108d241275e40131ce</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_nam_incident</sys_name><sys_overrides/><sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package><sys_policy/><sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope><sys_update_name>sys_ui_section_b672e0d7c38712108d241275e40131ce</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-17 08:38:07</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1595097302</payload_hash>
+        <record_name>Nam Incident</record_name>
+        <reverted_from/>
+        <source>be2ef2b5c34712108d241275e4013182</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-17 08:38:07</sys_created_on>
+        <sys_id>0b7224d7c38712108d241275e401316c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194736999560000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-17 08:38:07</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>8f7224d73a871210c5ffa83071b4d86b</update_guid>
+        <update_guid_history>8f7224d73a871210c5ffa83071b4d86b:-1595097302</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-17 08:38:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>2668350eecc941d09a57791b483cc001</sys_id>
+        <sys_metadata>b672e0d7c38712108d241275e40131ce</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Section</sys_name>
+        <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
+        <sys_parent display_value="Nam Incident">3b925b32c34bd2108d241275e401312a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
+        <sys_scope_delete display_value="">169c01ada58a459c93bc4e98a68a3610</sys_scope_delete>
+        <sys_update_name>sys_ui_section_b672e0d7c38712108d241275e40131ce</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_b672e0d7c38712108d241275e40131ce">0b7224d7c38712108d241275e401316c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-17 08:38:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
