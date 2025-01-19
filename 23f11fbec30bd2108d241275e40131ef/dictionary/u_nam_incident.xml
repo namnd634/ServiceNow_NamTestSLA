@@ -41,7 +41,7 @@
         <element label="Incident Work notes" max_length="400" name="u_incident_work_notes" type="journal"/>
         <element attributes="encode_utf8=false" label="Incident Caller" mandatory="true" max_length="32" name="u_incident_caller" reference="sys_user" type="reference"/>
         <element label="Incident Additional comments" max_length="400" name="u_incident_additional_comments" type="journal_input"/>
+        <element label="Ticket Acknowledgement" max_length="40" name="u_ticket_acknowledgement" type="string"/>
         <element label="Incident Assigned to" max_length="32" name="u_incident_assigned_to" reference="sys_user" type="reference"/>
-        <element label="Ticket Acknowledgement" max_length="40" name="u_ticket_acknowledgement" read_only="true" type="glide_date_time"/>
     </element>
 </database>
