@@ -46,6 +46,38 @@
         <element attributes="encode_utf8=false" label="Incident Caller" mandatory="true" max_length="32" name="u_incident_caller" reference="sys_user" type="reference"/>
         <element label="Incident Additional comments" max_length="400" name="u_incident_additional_comments" type="journal_input"/>
         <element label="1st Response Time" max_length="40" name="u_1st_response_time" read_only="true" type="glide_date_time"/>
+        <element choice="1" label="Category" max_length="40" name="u_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Hardware" sequence="2" value="hardware"/>
+                <element inactive_on_update="false" label="Software" sequence="1" value="software"/>
+                <element inactive_on_update="false" label="Inquiry/Help" sequence="0" value="inquiry/help"/>
+                <element inactive_on_update="false" label="Network" sequence="3" value="network"/>
+                <element inactive_on_update="false" label="Database" sequence="4" value="database"/>
+            </choice>
+        </element>
         <element label="Incident Assigned to" max_length="32" name="u_incident_assigned_to" reference="sys_user" type="reference"/>
+        <element choice="1" dependent="u_category" dependent_on_field="u_category" label="Subcategory" max_length="40" name="u_subcategory" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="network" inactive_on_update="false" label="IP Address" sequence="12" value="ip_address"/>
+                <element dependent_value="network" inactive_on_update="false" label="DHCP" sequence="7" value="dhcp"/>
+                <element dependent_value="network" inactive_on_update="false" label="VPN" sequence="13" value="vpn"/>
+                <element dependent_value="database" inactive_on_update="false" label="MS SQL Server" sequence="16" value="ms_sql_server"/>
+                <element dependent_value="software" inactive_on_update="false" label="Operating System" sequence="6" value="operating_system"/>
+                <element dependent_value="inquiry/help" inactive_on_update="false" label="Antivirus" sequence="0" value="antivirus"/>
+                <element dependent_value="hardware" inactive_on_update="false" label="CPU" sequence="1" value="cpu"/>
+                <element dependent_value="hardware" inactive_on_update="false" label="Disk" sequence="3" value="disk"/>
+                <element dependent_value="hardware" inactive_on_update="false" label="Monitor" sequence="9" value="monitor"/>
+                <element dependent_value="network" inactive_on_update="false" label="DNS" sequence="11" value="dns"/>
+                <element dependent_value="network" inactive_on_update="false" label="Wireless" sequence="15" value="wireless"/>
+                <element dependent_value="inquiry/help" inactive_on_update="false" label="Email" sequence="14" value="email_inquiry/help"/>
+                <element dependent_value="hardware" inactive_on_update="false" label="Mouse" sequence="10" value="mouse"/>
+                <element dependent_value="database" inactive_on_update="false" label="Oracle" sequence="17" value="oracle"/>
+                <element dependent_value="software" inactive_on_update="false" label="Email" sequence="5" value="email_software"/>
+                <element dependent_value="inquiry/help" inactive_on_update="false" label="Internal Application" sequence="18" value="internal_application"/>
+                <element dependent_value="hardware" inactive_on_update="false" label="Keyboard" sequence="4" value="keyboard"/>
+                <element dependent_value="hardware" inactive_on_update="false" label="Memory" sequence="8" value="memory"/>
+                <element dependent_value="database" inactive_on_update="false" label="DB2" sequence="2" value="db2"/>
+            </choice>
+        </element>
     </element>
 </database>

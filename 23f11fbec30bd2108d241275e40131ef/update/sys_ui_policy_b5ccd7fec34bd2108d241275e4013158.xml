@@ -28,22 +28,22 @@
 	}
 }]]></script_true>
         <set_values/>
-        <short_description>Hidden fields for end-user</short_description>
+        <short_description>Display only fields for end-user</short_description>
         <sys_class_name>sys_ui_policy</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-16 08:56:18</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b5ccd7fec34bd2108d241275e4013158</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>Hidden fields for end-user</sys_name>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Display only fields for end-user</sys_name>
         <sys_overrides/>
         <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
         <sys_update_name>sys_ui_policy_b5ccd7fec34bd2108d241275e4013158</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-17 09:18:40</sys_updated_on>
+        <sys_updated_on>2025-01-20 07:25:13</sys_updated_on>
         <table>u_nam_incident</table>
         <ui_type>0</ui_type>
         <view/>

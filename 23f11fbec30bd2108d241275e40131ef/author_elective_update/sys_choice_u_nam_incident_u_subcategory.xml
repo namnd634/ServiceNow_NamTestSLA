@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_subcategory" table="u_nam_incident" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_subcategory</element>
+            <name>u_nam_incident</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 06:41:35</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_subcategory</sys_name>
+            <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
+            <sys_update_name>sys_choice_u_nam_incident_u_subcategory</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 06:41:35</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>inquiry/help</dependent_value>
+            <element>u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Antivirus</label>
+            <language>en</language>
+            <name>u_nam_incident</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 06:54:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 06:54:15</sys_updated_on>
+            <value>antivirus</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hardware</dependent_value>
+            <element>u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CPU</label>
+            <language>en</language>
+            <name>u_nam_incident</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 06:54:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 06:57:26</sys_updated_on>
+            <value>cpu</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>database</dependent_value>
+            <element>u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DB2</label>
+            <language>en</language>
+            <name>u_nam_incident</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 06:54:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 06:57:25</sys_updated_on>
+            <value>db2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hardware</dependent_value>
+            <element>u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Disk</label>
+            <language>en</language>
+            <name>u_nam_incident</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 06:54:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 06:57:26</sys_updated_on>
+            <value>disk</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hardware</dependent_value>
+            <element>u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Keyboard</label>
+            <language>en</language>
+            <name>u_nam_incident</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 06:54:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 06:57:27</sys_updated_on>
+            <value>keyboard</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>software</dependent_value>
+            <element>u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Email</label>
+            <language>en</language>
+            <name>u_nam_incident</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 06:54:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 06:57:26</sys_updated_on>
+            <value>email_software</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>software</dependent_value>
+            <element>u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Operating System</label>
+            <language>en</language>
+            <name>u_nam_incident</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 06:54:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 06:57:26</sys_updated_on>
+            <value>operating_system</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>network</dependent_value>
+            <element>u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DHCP</label>
+            <language>en</language>
+            <name>u_nam_incident</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 06:54:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 06:57:27</sys_updated_on>
+            <value>dhcp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hardware</dependent_value>
+            <element>u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Memory</label>
+            <language>en</language>
+            <name>u_nam_incident</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 06:54:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 06:57:27</sys_updated_on>
+            <value>memory</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hardware</dependent_value>
+            <element>u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Monitor</label>
+            <language>en</language>
+            <name>u_nam_incident</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 06:54:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 06:57:27</sys_updated_on>
+            <value>monitor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hardware</dependent_value>
+            <element>u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mouse</label>
+            <language>en</language>
+            <name>u_nam_incident</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 06:54:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 06:57:27</sys_updated_on>
+            <value>mouse</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>network</dependent_value>
+            <element>u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DNS</label>
+            <language>en</language>
+            <name>u_nam_incident</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 06:54:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 06:57:27</sys_updated_on>
+            <value>dns</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>network</dependent_value>
+            <element>u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IP Address</label>
+            <language>en</language>
+            <name>u_nam_incident</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 06:54:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 06:57:27</sys_updated_on>
+            <value>ip_address</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>network</dependent_value>
+            <element>u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>VPN</label>
+            <language>en</language>
+            <name>u_nam_incident</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 06:54:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 06:57:27</sys_updated_on>
+            <value>vpn</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>inquiry/help</dependent_value>
+            <element>u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Email</label>
+            <language>en</language>
+            <name>u_nam_incident</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 06:57:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 06:57:26</sys_updated_on>
+            <value>email_inquiry/help</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>network</dependent_value>
+            <element>u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wireless</label>
+            <language>en</language>
+            <name>u_nam_incident</name>
+            <sequence>15</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 06:54:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 06:57:27</sys_updated_on>
+            <value>wireless</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>database</dependent_value>
+            <element>u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MS SQL Server</label>
+            <language>en</language>
+            <name>u_nam_incident</name>
+            <sequence>16</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 06:54:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 06:57:26</sys_updated_on>
+            <value>ms_sql_server</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>database</dependent_value>
+            <element>u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Oracle</label>
+            <language>en</language>
+            <name>u_nam_incident</name>
+            <sequence>17</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 06:54:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 06:57:26</sys_updated_on>
+            <value>oracle</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>inquiry/help</dependent_value>
+            <element>u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Internal Application</label>
+            <language>en</language>
+            <name>u_nam_incident</name>
+            <sequence>18</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 06:54:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 06:57:26</sys_updated_on>
+            <value>internal_application</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
