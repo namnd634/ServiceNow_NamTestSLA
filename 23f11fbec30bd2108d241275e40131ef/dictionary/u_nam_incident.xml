@@ -29,6 +29,7 @@
             </choice>
         </element>
         <element label="Incident Assignment group" max_length="32" name="u_incident_assignment_group" reference="sys_user_group" type="reference"/>
+        <element label="Ticket Acknowledgement Time" max_length="40" name="u_ticket_acknowledgement_time" read_only="true" type="glide_date_time"/>
         <element label="Incident Description" max_length="40" name="u_incident_description" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Incident Impact" max_length="40" name="u_incident_impact" type="choice">
             <choice>
@@ -39,9 +40,9 @@
             </choice>
         </element>
         <element label="Incident Work notes" max_length="400" name="u_incident_work_notes" type="journal"/>
+        <element label="Ticket Acknowledgement Duration" max_length="40" name="u_ticket_acknowledgement_duration" read_only="true" type="string"/>
         <element attributes="encode_utf8=false" label="Incident Caller" mandatory="true" max_length="32" name="u_incident_caller" reference="sys_user" type="reference"/>
         <element label="Incident Additional comments" max_length="400" name="u_incident_additional_comments" type="journal_input"/>
-        <element label="Ticket Acknowledgement" max_length="40" name="u_ticket_acknowledgement" type="string"/>
         <element label="Incident Assigned to" max_length="32" name="u_incident_assigned_to" reference="sys_user" type="reference"/>
     </element>
 </database>
