@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="u_ticket_acknowledgement_duration" label="Ticket Acknowledgement Duration" language="en" table="u_nam_incident">
+    <sys_documentation element="u_resolution_time" label="Resolution Time" language="en" table="u_nam_incident">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>u_ticket_acknowledgement_duration</element>
+            <element>u_resolution_time</element>
             <help/>
             <hint/>
-            <label>Ticket Acknowledgement Duration</label>
+            <label>Resolution Time</label>
             <language>en</language>
             <name>u_nam_incident</name>
-            <plural>Ticket Acknowledgement Durations</plural>
+            <plural>Resolution Times</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-20 01:21:12</sys_created_on>
+            <sys_created_on>2025-01-20 02:21:08</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Ticket Acknowledgement Duration</sys_name>
+            <sys_name>Resolution Time</sys_name>
             <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
             <sys_policy/>
             <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
-            <sys_update_name>sys_documentation_u_nam_incident_u_ticket_acknowledgement_duration_en</sys_update_name>
+            <sys_update_name>sys_documentation_u_nam_incident_u_resolution_time_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-20 01:21:12</sys_updated_on>
+            <sys_updated_on>2025-01-20 02:21:08</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

@@ -32,7 +32,7 @@
         <order>100</order>
         <script><![CDATA[function resolveIncident(){
 	//Set the 'Incident state' and 'State' values to 'Resolved', and display mandatory fields
-	g_form.setValue('u_incident_state', 'Resolved');
+	g_form.setValue('u_incident_state', 'resolved');
 	g_form.submit();
 }]]></script>
         <show_insert>true</show_insert>
@@ -45,7 +45,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c73e9b72c38bd2108d241275e4013163</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Resolve</sys_name>
         <sys_overrides/>
         <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
         <sys_update_name>sys_ui_action_c73e9b72c38bd2108d241275e4013163</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-17 02:02:16</sys_updated_on>
+        <sys_updated_on>2025-01-20 02:56:55</sys_updated_on>
         <table>u_nam_incident</table>
         <ui11_compatible>false</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

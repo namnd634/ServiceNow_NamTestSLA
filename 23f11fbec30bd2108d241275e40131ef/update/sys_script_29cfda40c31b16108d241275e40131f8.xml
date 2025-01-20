@@ -15,12 +15,12 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="u_nam_incident">u_incident_state=new^EQ<item display_value="New" endquery="false" field="u_incident_state" goto="false" newquery="false" operator="=" or="false" value="new"/>
+        <filter_condition table="u_nam_incident">u_incident_stateCHANGESTOin_progress^EQ<item display_value="In Progress" endquery="false" field="u_incident_state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="in_progress"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
         <message/>
-        <name>Set Ticket Acknowledgement</name>
+        <name>Set 1st Response Time</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -30,38 +30,44 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-    var now = new GlideDateTime();
-
-	current.u_ticket_acknowledgement_time = now;
+    var gdt1 = new GlideDateTime(current.u_ticket_acknowledgement_time.getDisplayValue());
+    var gdt2 = new GlideDateTime(gs.nowDateTime());
+    var dur = GlideDateTime.subtract(gdt1, gdt2); // The difference between gdt1 and gdt2
+    var dur1 = new GlideDuration();
+    dur1.setValue(dur.getValue());
+    current.u_1st_response_time_duration = dur1.getDurationValue().toString();
+	
+	var now = new GlideDateTime();
+	current.u_1st_response_time = now;
 })(current, previous);
 ]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-16 09:01:05</sys_created_on>
+        <sys_created_on>2025-01-20 01:41:54</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>5e0e5772c38bd2108d241275e40131ae</sys_id>
-        <sys_mod_count>21</sys_mod_count>
-        <sys_name>Set Ticket Acknowledgement</sys_name>
+        <sys_id>29cfda40c31b16108d241275e40131f8</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Set 1st Response Time</sys_name>
         <sys_overrides/>
         <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
-        <sys_update_name>sys_script_5e0e5772c38bd2108d241275e40131ae</sys_update_name>
+        <sys_update_name>sys_script_29cfda40c31b16108d241275e40131f8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-20 01:48:01</sys_updated_on>
+        <sys_updated_on>2025-01-20 02:01:01</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=5e0e5772c38bd2108d241275e40131ae"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=29cfda40c31b16108d241275e40131f8"/>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>5e0e5772c38bd2108d241275e40131ae</id>
+        <id>29cfda40c31b16108d241275e40131f8</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-16 09:01:05</sys_created_on>
-        <sys_id>352e5372c38bd2108d241275e40131cd</sys_id>
+        <sys_created_on>2025-01-20 01:41:54</sys_created_on>
+        <sys_id>dfff9240c31b16108d241275e401319f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-16 09:01:05</sys_updated_on>
+        <sys_updated_on>2025-01-20 01:41:54</sys_updated_on>
         <table>sys_script</table>
         <use_es_latest>true</use_es_latest>
     </sys_es_latest_script>
