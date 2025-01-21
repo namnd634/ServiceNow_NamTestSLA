@@ -31,22 +31,22 @@
 }
 ]]></script_true>
         <set_values/>
-        <short_description>Not changeable fields for technical and customer service</short_description>
+        <short_description>Display only fields for service</short_description>
         <sys_class_name>sys_ui_policy</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-16 08:58:21</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>497d5732c38bd2108d241275e4013166</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Not changeable fields for technical and customer service</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Display only fields for service</sys_name>
         <sys_overrides/>
         <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
         <sys_update_name>sys_ui_policy_497d5732c38bd2108d241275e4013166</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-17 01:58:10</sys_updated_on>
+        <sys_updated_on>2025-01-21 03:55:27</sys_updated_on>
         <table>u_nam_incident</table>
         <ui_type>0</ui_type>
         <view/>

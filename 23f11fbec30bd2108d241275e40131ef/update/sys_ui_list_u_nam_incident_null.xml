@@ -3,137 +3,137 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="u_nam_incident" element="NULL" name="u_nam_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c4a74387c3cb16108d241275e40131d1</list_id>
+            <list_id display_value="u_nam_incident" element="NULL" name="u_nam_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f0668414c31356108d241275e4013122</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-17 02:01:08</sys_created_on>
-            <sys_id>48a74387c3cb16108d241275e40131d2</sys_id>
+            <sys_created_on>2025-01-20 09:09:17</sys_created_on>
+            <sys_id>74668414c31356108d241275e4013123</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-17 02:01:08</sys_updated_on>
+            <sys_updated_on>2025-01-20 09:09:17</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_incident_assignment_group</element>
-            <list_id display_value="u_nam_incident" element="NULL" name="u_nam_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c4a74387c3cb16108d241275e40131d1</list_id>
+            <list_id display_value="u_nam_incident" element="NULL" name="u_nam_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f0668414c31356108d241275e4013122</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-17 02:01:08</sys_created_on>
-            <sys_id>cca74387c3cb16108d241275e40131d2</sys_id>
+            <sys_created_on>2025-01-20 09:09:17</sys_created_on>
+            <sys_id>f8668414c31356108d241275e4013123</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-17 02:01:08</sys_updated_on>
+            <sys_updated_on>2025-01-20 09:09:17</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_incident_caller</element>
-            <list_id display_value="u_nam_incident" element="NULL" name="u_nam_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c4a74387c3cb16108d241275e40131d1</list_id>
+            <list_id display_value="u_nam_incident" element="NULL" name="u_nam_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f0668414c31356108d241275e4013122</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-17 02:01:08</sys_created_on>
-            <sys_id>40a74387c3cb16108d241275e40131d3</sys_id>
+            <sys_created_on>2025-01-20 09:09:17</sys_created_on>
+            <sys_id>7c668414c31356108d241275e4013123</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-17 02:01:08</sys_updated_on>
+            <sys_updated_on>2025-01-20 09:09:17</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_incident_state</element>
-            <list_id display_value="u_nam_incident" element="NULL" name="u_nam_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c4a74387c3cb16108d241275e40131d1</list_id>
+            <list_id display_value="u_nam_incident" element="NULL" name="u_nam_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f0668414c31356108d241275e4013122</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-17 02:01:08</sys_created_on>
-            <sys_id>c0a74387c3cb16108d241275e40131d3</sys_id>
+            <sys_created_on>2025-01-20 09:09:17</sys_created_on>
+            <sys_id>fc668414c31356108d241275e4013123</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-17 02:01:08</sys_updated_on>
+            <sys_updated_on>2025-01-20 09:09:17</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_incident_priority</element>
-            <list_id display_value="u_nam_incident" element="NULL" name="u_nam_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c4a74387c3cb16108d241275e40131d1</list_id>
+            <list_id display_value="u_nam_incident" element="NULL" name="u_nam_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f0668414c31356108d241275e4013122</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-17 02:01:08</sys_created_on>
-            <sys_id>44a74387c3cb16108d241275e40131d3</sys_id>
+            <sys_created_on>2025-01-20 09:09:17</sys_created_on>
+            <sys_id>70668414c31356108d241275e4013124</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-17 02:01:08</sys_updated_on>
+            <sys_updated_on>2025-01-20 09:09:17</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_incident_short_description</element>
-            <list_id display_value="u_nam_incident" element="NULL" name="u_nam_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c4a74387c3cb16108d241275e40131d1</list_id>
+            <list_id display_value="u_nam_incident" element="NULL" name="u_nam_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f0668414c31356108d241275e4013122</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-17 02:01:08</sys_created_on>
-            <sys_id>c4a74387c3cb16108d241275e40131d3</sys_id>
+            <sys_created_on>2025-01-20 09:09:17</sys_created_on>
+            <sys_id>f0668414c31356108d241275e4013124</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-17 02:01:08</sys_updated_on>
+            <sys_updated_on>2025-01-20 09:09:17</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_created_on</element>
-            <list_id display_value="u_nam_incident" element="NULL" name="u_nam_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c4a74387c3cb16108d241275e40131d1</list_id>
+            <element>u_ticket_acknowledgement_time</element>
+            <list_id display_value="u_nam_incident" element="NULL" name="u_nam_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f0668414c31356108d241275e4013122</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-17 02:01:08</sys_created_on>
-            <sys_id>48a74387c3cb16108d241275e40131d3</sys_id>
+            <sys_created_on>2025-01-20 09:09:17</sys_created_on>
+            <sys_id>74668414c31356108d241275e4013124</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-17 02:01:08</sys_updated_on>
+            <sys_updated_on>2025-01-20 09:09:17</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_incident_impact</element>
-            <list_id display_value="u_nam_incident" element="NULL" name="u_nam_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c4a74387c3cb16108d241275e40131d1</list_id>
+            <list_id display_value="u_nam_incident" element="NULL" name="u_nam_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f0668414c31356108d241275e4013122</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-17 02:01:08</sys_created_on>
-            <sys_id>c8a74387c3cb16108d241275e40131d3</sys_id>
+            <sys_created_on>2025-01-20 09:09:17</sys_created_on>
+            <sys_id>f4668414c31356108d241275e4013124</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-17 02:01:08</sys_updated_on>
+            <sys_updated_on>2025-01-20 09:09:17</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_incident_urgency</element>
-            <list_id display_value="u_nam_incident" element="NULL" name="u_nam_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c4a74387c3cb16108d241275e40131d1</list_id>
+            <list_id display_value="u_nam_incident" element="NULL" name="u_nam_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f0668414c31356108d241275e4013122</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>8</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-17 02:01:08</sys_created_on>
-            <sys_id>4ca74387c3cb16108d241275e40131d3</sys_id>
+            <sys_created_on>2025-01-20 09:09:17</sys_created_on>
+            <sys_id>78668414c31356108d241275e4013124</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-17 02:01:08</sys_updated_on>
+            <sys_updated_on>2025-01-20 09:09:17</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -147,10 +147,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-17 02:01:08</sys_created_on>
+            <sys_created_on>2025-01-20 09:09:17</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>c4a74387c3cb16108d241275e40131d1</sys_id>
+            <sys_id>f0668414c31356108d241275e4013122</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_nam_incident</sys_name>
             <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
@@ -158,7 +158,7 @@
             <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
             <sys_update_name>sys_ui_list_u_nam_incident_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-17 02:01:08</sys_updated_on>
+            <sys_updated_on>2025-01-20 09:09:17</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
