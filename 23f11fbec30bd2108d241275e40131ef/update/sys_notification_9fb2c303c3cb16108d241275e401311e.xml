@@ -16,7 +16,7 @@
         <event_parm_2>false</event_parm_2>
         <event_parm_2_table>sys_user</event_parm_2_table>
         <include_originator>false</include_originator>
-        <name>Notify New Ticket</name>
+        <name>Notify New Ticket to helpdesk</name>
         <order>100</order>
         <recipient_fields/>
         <recipient_users>fe93c3fdc34712108d241275e4013137</recipient_users>
@@ -40,15 +40,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9fb2c303c3cb16108d241275e401311e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Notify New Ticket</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Notify New Ticket to helpdesk</sys_name>
         <sys_overrides/>
         <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
         <sys_update_name>sys_notification_9fb2c303c3cb16108d241275e401311e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-17 01:46:42</sys_updated_on>
+        <sys_updated_on>2025-01-23 04:05:41</sys_updated_on>
         <table>u_nam_incident</table>
         <triggered_by>record_change</triggered_by>
     </sys_notification>

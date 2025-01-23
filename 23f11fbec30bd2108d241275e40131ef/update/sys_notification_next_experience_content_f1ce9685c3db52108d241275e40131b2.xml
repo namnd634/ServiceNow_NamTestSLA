@@ -5,23 +5,23 @@
         <active>true</active>
         <is_default>false</is_default>
         <message><![CDATA[${u_incident_short_description}
-${u_resolution_time}]]></message>
-        <message_heading><![CDATA[${number} is ${u_incident_state}]]></message_heading>
-        <name>State changes to Resolved notification</name>
-        <notification display_value="State changes to Resolved to end-user">08c0ac17c38712108d241275e401314f</notification>
+${u_1st_response_time}]]></message>
+        <message_heading><![CDATA[${number} is assigned to ${u_incident_assigned_to}]]></message_heading>
+        <name>Assigned to notification to end-user</name>
+        <notification display_value="Assigned to notification to end-user">1d4e1245c3db52108d241275e40131ee</notification>
         <route display_value="Next Experience Route">bccd1214533201107cd3ddeeff7b1289</route>
         <sys_class_name>sys_notification_next_experience_content</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-17 08:31:42</sys_created_on>
-        <sys_id>1df0e057c38712108d241275e401310f</sys_id>
+        <sys_created_on>2025-01-23 04:14:15</sys_created_on>
+        <sys_id>f1ce9685c3db52108d241275e40131b2</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>State changes to Resolved notification</sys_name>
+        <sys_name>Assigned to notification to end-user</sys_name>
         <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
-        <sys_update_name>sys_notification_next_experience_content_1df0e057c38712108d241275e401310f</sys_update_name>
+        <sys_update_name>sys_notification_next_experience_content_f1ce9685c3db52108d241275e40131b2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-23 06:45:30</sys_updated_on>
+        <sys_updated_on>2025-01-23 06:50:01</sys_updated_on>
         <use_action>false</use_action>
     </sys_notification_next_experience_content>
 </record_update>

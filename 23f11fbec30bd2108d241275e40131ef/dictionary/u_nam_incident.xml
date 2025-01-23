@@ -44,7 +44,7 @@
         <element label="Incident Work notes" max_length="400" name="u_incident_work_notes" type="journal"/>
         <element label="Resolution Time" max_length="40" name="u_resolution_time" read_only="true" type="glide_date_time"/>
         <element attributes="encode_utf8=false" label="Incident Caller" mandatory="true" max_length="32" name="u_incident_caller" reference="sys_user" type="reference"/>
-        <element label="1st Response message" max_length="40" name="u_first_response_message" type="string"/>
+        <element active="false" label="1st Response message" max_length="40" name="u_first_response_message" type="string"/>
         <element label="Incident Additional comments" max_length="400" name="u_incident_additional_comments" type="journal_input"/>
         <element label="1st Response Time" max_length="40" name="u_1st_response_time" read_only="true" type="glide_date_time"/>
         <element choice="1" label="Category" max_length="40" name="u_category" type="choice">
