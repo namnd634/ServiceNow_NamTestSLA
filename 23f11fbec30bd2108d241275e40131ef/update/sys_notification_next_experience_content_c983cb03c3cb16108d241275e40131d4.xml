@@ -5,23 +5,23 @@
         <active>true</active>
         <is_default>false</is_default>
         <message><![CDATA[${u_incident_short_description}]]></message>
-        <message_heading><![CDATA[${number} is assigned to you
+        <message_heading><![CDATA[${number} is assigned to group
 ]]></message_heading>
         <name>Assigned to technical group notification</name>
-        <notification display_value="Assigned to technical notification">e113c303c3cb16108d241275e4013127</notification>
+        <notification display_value="Assigned to technical manager">e113c303c3cb16108d241275e4013127</notification>
         <route display_value="Next Experience Route">bccd1214533201107cd3ddeeff7b1289</route>
         <sys_class_name>sys_notification_next_experience_content</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-17 01:44:15</sys_created_on>
         <sys_id>c983cb03c3cb16108d241275e40131d4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Assigned to technical group notification</sys_name>
         <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
         <sys_update_name>sys_notification_next_experience_content_c983cb03c3cb16108d241275e40131d4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-17 01:57:01</sys_updated_on>
+        <sys_updated_on>2025-01-23 02:48:56</sys_updated_on>
         <use_action>false</use_action>
     </sys_notification_next_experience_content>
 </record_update>

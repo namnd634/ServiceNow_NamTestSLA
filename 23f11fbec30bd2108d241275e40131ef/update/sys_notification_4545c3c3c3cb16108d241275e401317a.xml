@@ -16,10 +16,10 @@
         <event_parm_2>false</event_parm_2>
         <event_parm_2_table>sys_user</event_parm_2_table>
         <include_originator>false</include_originator>
-        <name>Assigned to customer notification</name>
+        <name>Assigned to customer manager</name>
         <order>100</order>
-        <recipient_fields>u_incident_assigned_to</recipient_fields>
-        <recipient_users/>
+        <recipient_fields/>
+        <recipient_users>e0e347fdc34712108d241275e401316a</recipient_users>
         <script><![CDATA[(function runRecipientScript(/*String*/ parm1, /*String*/ parm2) {
       /*
       //Create instance of AdvancedNotificationRecipients to add recipients
@@ -40,15 +40,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4545c3c3c3cb16108d241275e401317a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Assigned to customer notification</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Assigned to customer manager</sys_name>
         <sys_overrides/>
         <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
         <sys_update_name>sys_notification_4545c3c3c3cb16108d241275e401317a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-17 01:51:46</sys_updated_on>
+        <sys_updated_on>2025-01-23 02:49:20</sys_updated_on>
         <table>u_nam_incident</table>
         <triggered_by>record_change</triggered_by>
     </sys_notification>

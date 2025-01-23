@@ -30,15 +30,19 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-    var gdt1 = new GlideDateTime(current.u_1st_response_time.getDisplayValue());
-    var gdt2 = new GlideDateTime(gs.nowDateTime());
-    var dur = GlideDateTime.subtract(gdt1, gdt2); // The difference between gdt1 and gdt2
-    var dur1 = new GlideDuration();
-    dur1.setValue(dur.getValue());
-    current.u_resolution_time_duration = dur1.getDurationValue().toString();
+	if(!current.u_resolution_time)
+	{
+		var now = new GlideDateTime();
+		current.u_resolution_time = now;
+	}
+    // var gdt1 = new GlideDateTime(current.u_1st_response_time.getDisplayValue());
+    // var gdt2 = new GlideDateTime(gs.nowDateTime());
+    // var dur = GlideDateTime.subtract(gdt1, gdt2); // The difference between gdt1 and gdt2
+    // var dur1 = new GlideDuration();
+    // dur1.setValue(dur.getValue());
+    // current.u_resolution_time_duration = dur1.getDurationValue().toString();
 	
-	var now = new GlideDateTime();
-	current.u_resolution_time = now;
+
 })(current, previous);
 ]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -47,7 +51,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3ff8ae4cc31b16108d241275e40131ba</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Set Resolution Time</sys_name>
         <sys_overrides/>
         <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
@@ -55,7 +59,7 @@
         <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
         <sys_update_name>sys_script_3ff8ae4cc31b16108d241275e40131ba</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-20 02:30:34</sys_updated_on>
+        <sys_updated_on>2025-01-23 01:20:48</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

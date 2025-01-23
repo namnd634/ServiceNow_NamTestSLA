@@ -30,9 +30,12 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-    var now = new GlideDateTime();
-
-	current.u_ticket_acknowledgement_time = now;
+    if(!current.u_ticket_acknowledgement_time)
+	{
+		var now = new GlideDateTime();
+		
+		current.u_ticket_acknowledgement_time = now;
+	}
 })(current, previous);
 ]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -41,7 +44,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5e0e5772c38bd2108d241275e40131ae</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Set Ticket Acknowledgement</sys_name>
         <sys_overrides/>
         <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
@@ -49,7 +52,7 @@
         <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
         <sys_update_name>sys_script_5e0e5772c38bd2108d241275e40131ae</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-20 01:48:01</sys_updated_on>
+        <sys_updated_on>2025-01-23 01:19:18</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
