@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-22 04:49:14</sys_created_on>
-            <sys_id>4b0e153cc3d312108d241275e40131ba</sys_id>
+            <sys_created_on>2025-02-13 04:34:22</sys_created_on>
+            <sys_id>639dae3bc3e312108d241275e4013104</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_nam_incident" sys_domain="global" view="Default view">35231772c34bd2108d241275e401311d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-22 04:49:14</sys_updated_on>
+            <sys_updated_on>2025-02-13 04:34:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>u_incident_caller</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-22 04:49:14</sys_created_on>
-            <sys_id>cf0e153cc3d312108d241275e40131ba</sys_id>
+            <sys_created_on>2025-02-13 04:34:22</sys_created_on>
+            <sys_id>2f9dae3bc3e312108d241275e4013104</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_nam_incident" sys_domain="global" view="Default view">35231772c34bd2108d241275e401311d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-22 04:49:14</sys_updated_on>
+            <sys_updated_on>2025-02-13 04:34:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>u_category</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-22 04:49:14</sys_created_on>
-            <sys_id>470e153cc3d312108d241275e40131bb</sys_id>
+            <sys_created_on>2025-02-13 04:34:22</sys_created_on>
+            <sys_id>a39dae3bc3e312108d241275e4013105</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_nam_incident" sys_domain="global" view="Default view">35231772c34bd2108d241275e401311d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-22 04:49:14</sys_updated_on>
+            <sys_updated_on>2025-02-13 04:34:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>u_subcategory</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-22 04:49:14</sys_created_on>
-            <sys_id>cb0e153cc3d312108d241275e40131bb</sys_id>
+            <sys_created_on>2025-02-13 04:34:22</sys_created_on>
+            <sys_id>2b9dae3bc3e312108d241275e4013105</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_nam_incident" sys_domain="global" view="Default view">35231772c34bd2108d241275e401311d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-22 04:49:14</sys_updated_on>
+            <sys_updated_on>2025-02-13 04:34:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>u_incident_assignment_group</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-22 04:49:14</sys_created_on>
-            <sys_id>430e153cc3d312108d241275e40131bc</sys_id>
+            <sys_created_on>2025-02-13 04:34:22</sys_created_on>
+            <sys_id>af9dae3bc3e312108d241275e4013105</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_nam_incident" sys_domain="global" view="Default view">35231772c34bd2108d241275e401311d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-22 04:49:14</sys_updated_on>
+            <sys_updated_on>2025-02-13 04:34:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>u_incident_assigned_to</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-22 04:49:14</sys_created_on>
-            <sys_id>c70e153cc3d312108d241275e40131bc</sys_id>
+            <sys_created_on>2025-02-13 04:34:22</sys_created_on>
+            <sys_id>279dae3bc3e312108d241275e4013106</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_nam_incident" sys_domain="global" view="Default view">35231772c34bd2108d241275e401311d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-22 04:49:14</sys_updated_on>
+            <sys_updated_on>2025-02-13 04:34:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>.split</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-22 04:49:14</sys_created_on>
-            <sys_id>4f0e153cc3d312108d241275e40131bc</sys_id>
+            <sys_created_on>2025-02-13 04:34:22</sys_created_on>
+            <sys_id>ab9dae3bc3e312108d241275e4013106</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_nam_incident" sys_domain="global" view="Default view">35231772c34bd2108d241275e401311d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-22 04:49:14</sys_updated_on>
+            <sys_updated_on>2025-02-13 04:34:22</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>u_incident_state</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-22 04:49:14</sys_created_on>
-            <sys_id>c30e153cc3d312108d241275e40131bd</sys_id>
+            <sys_created_on>2025-02-13 04:34:22</sys_created_on>
+            <sys_id>239dae3bc3e312108d241275e4013107</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_nam_incident" sys_domain="global" view="Default view">35231772c34bd2108d241275e401311d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-22 04:49:14</sys_updated_on>
+            <sys_updated_on>2025-02-13 04:34:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>u_incident_impact</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-22 04:49:14</sys_created_on>
-            <sys_id>4b0e153cc3d312108d241275e40131bd</sys_id>
+            <sys_created_on>2025-02-13 04:34:22</sys_created_on>
+            <sys_id>a79dae3bc3e312108d241275e4013107</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_nam_incident" sys_domain="global" view="Default view">35231772c34bd2108d241275e401311d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-22 04:49:14</sys_updated_on>
+            <sys_updated_on>2025-02-13 04:34:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -130,13 +130,13 @@
             <element>u_incident_urgency</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-22 04:49:14</sys_created_on>
-            <sys_id>cf0e153cc3d312108d241275e40131bd</sys_id>
+            <sys_created_on>2025-02-13 04:34:22</sys_created_on>
+            <sys_id>2f9dae3bc3e312108d241275e4013107</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_nam_incident" sys_domain="global" view="Default view">35231772c34bd2108d241275e401311d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-22 04:49:14</sys_updated_on>
+            <sys_updated_on>2025-02-13 04:34:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -144,13 +144,13 @@
             <element>u_incident_priority</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-22 04:49:14</sys_created_on>
-            <sys_id>470e153cc3d312108d241275e40131be</sys_id>
+            <sys_created_on>2025-02-13 04:34:22</sys_created_on>
+            <sys_id>a39dae3bc3e312108d241275e4013108</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_nam_incident" sys_domain="global" view="Default view">35231772c34bd2108d241275e401311d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-22 04:49:14</sys_updated_on>
+            <sys_updated_on>2025-02-13 04:34:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -158,13 +158,13 @@
             <element>u_ticket_acknowledgement_time</element>
             <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-22 04:49:14</sys_created_on>
-            <sys_id>cb0e153cc3d312108d241275e40131be</sys_id>
+            <sys_created_on>2025-02-13 04:34:22</sys_created_on>
+            <sys_id>2b9dae3bc3e312108d241275e4013108</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_nam_incident" sys_domain="global" view="Default view">35231772c34bd2108d241275e401311d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-22 04:49:14</sys_updated_on>
+            <sys_updated_on>2025-02-13 04:34:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -172,13 +172,13 @@
             <element>u_1st_response_time</element>
             <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-22 04:49:14</sys_created_on>
-            <sys_id>430e153cc3d312108d241275e40131bf</sys_id>
+            <sys_created_on>2025-02-13 04:34:22</sys_created_on>
+            <sys_id>af9dae3bc3e312108d241275e4013108</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_nam_incident" sys_domain="global" view="Default view">35231772c34bd2108d241275e401311d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-22 04:49:14</sys_updated_on>
+            <sys_updated_on>2025-02-13 04:34:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -186,55 +186,69 @@
             <element>u_resolution_time</element>
             <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-22 04:49:14</sys_created_on>
-            <sys_id>c70e153cc3d312108d241275e40131bf</sys_id>
+            <sys_created_on>2025-02-13 04:34:22</sys_created_on>
+            <sys_id>279dae3bc3e312108d241275e4013109</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_nam_incident" sys_domain="global" view="Default view">35231772c34bd2108d241275e401311d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-22 04:49:14</sys_updated_on>
+            <sys_updated_on>2025-02-13 04:34:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_resolution_time_duration</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-13 04:34:22</sys_created_on>
+            <sys_id>ab9dae3bc3e312108d241275e4013109</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_nam_incident" sys_domain="global" view="Default view">35231772c34bd2108d241275e401311d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-13 04:34:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>14</position>
+            <position>15</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-22 04:49:14</sys_created_on>
-            <sys_id>4f0e153cc3d312108d241275e40131bf</sys_id>
+            <sys_created_on>2025-02-13 04:34:22</sys_created_on>
+            <sys_id>239dae3bc3e312108d241275e401310a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_nam_incident" sys_domain="global" view="Default view">35231772c34bd2108d241275e401311d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-22 04:49:14</sys_updated_on>
+            <sys_updated_on>2025-02-13 04:34:22</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_incident_short_description</element>
-            <position>15</position>
+            <position>16</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-22 04:49:14</sys_created_on>
-            <sys_id>c30e153cc3d312108d241275e40131c0</sys_id>
+            <sys_created_on>2025-02-13 04:34:22</sys_created_on>
+            <sys_id>a79dae3bc3e312108d241275e401310a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_nam_incident" sys_domain="global" view="Default view">35231772c34bd2108d241275e401311d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-22 04:49:14</sys_updated_on>
+            <sys_updated_on>2025-02-13 04:34:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_incident_description</element>
-            <position>16</position>
+            <position>17</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-22 04:49:14</sys_created_on>
-            <sys_id>4b0e153cc3d312108d241275e40131c0</sys_id>
+            <sys_created_on>2025-02-13 04:34:22</sys_created_on>
+            <sys_id>2f9dae3bc3e312108d241275e401310a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_nam_incident" sys_domain="global" view="Default view">35231772c34bd2108d241275e401311d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-22 04:49:14</sys_updated_on>
+            <sys_updated_on>2025-02-13 04:34:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

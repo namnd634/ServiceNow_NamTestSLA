@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Updated by Helpdesk</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+	var ourUser = g_user.hasRole('nam-helpdesk');
+	if(ourUser){
+		// Kiểm tra giá trị các trường
+		var assignmentGroup = g_form.getValue('u_incident_assignment_group');
+		var state = g_form.getValue('u_incident_state');
+		var impact = g_form.getValue('u_incident_impact');
+		var urgency = g_form.getValue('u_incident_urgency');
+		var priority = g_form.getValue('u_incident_priority');
+		
+		var errorFlag = false;
+
+		// // Kiểm tra trường Assigned to và State
+		// if (assignmentGroup && state === 'new') {
+		// 	g_form.addErrorMessage('You have to update State once you update "Assignment Group"! ');
+		// 	g_form.showFieldMsg('u_incident_state', 'Please update this field!', 'error');
+		// 	errorFlag = true;
+		// }
+
+		// Kiểm tra các trường Impact, Urgency, Priority
+		if (!impact || !urgency || !priority) {
+			g_form.addErrorMessage('Impact, Urgency, and Priority must be filled out.');
+			if (!impact) g_form.showFieldMsg('u_incident_impact', 'Please update this field!', 'error');
+			if (!urgency) g_form.showFieldMsg('u_incident_urgency', 'Please update this field!', 'error');
+			if (!priority) g_form.showFieldMsg('u_incident_priority', 'Please update this field!', 'error');
+			errorFlag = true;
+		}
+
+		return !errorFlag; // Trả về false nếu có lỗi, ngăn submit
+	}
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 06:30:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6fb3709bc36712108d241275e40131da</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Updated by Helpdesk</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
+        <sys_update_name>sys_script_client_6fb3709bc36712108d241275e40131da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 09:39:15</sys_updated_on>
+        <table>u_nam_incident</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

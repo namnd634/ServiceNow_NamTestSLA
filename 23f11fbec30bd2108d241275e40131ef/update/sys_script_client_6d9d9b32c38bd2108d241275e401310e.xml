@@ -11,18 +11,15 @@
         <name>Priority rules</name>
         <order/>
         <script><![CDATA[function onSubmit() {
-    // Lấy giá trị của các field
     var impact = g_form.getValue('u_incident_impact');
     var urgency = g_form.getValue('u_incident_urgency');
     var priority = g_form.getValue('u_incident_priority');
 
-    // Kiểm tra nếu Priority được nhập mà Impact hoặc Urgency chưa được nhập
     if (priority && (!impact || !urgency)) {
         g_form.addErrorMessage('Priority cannot be set unless both Impact and Urgency are selected.');
         return false;
     }
 
-    // Kiểm tra nếu Priority là C1 thì Impact phải là Extensive/Widespread và Urgency phải là Immediate
     if (priority === 'c1') {
         if (impact !== 'extensive/widespread' || urgency !== 'immediate') {
             g_form.addErrorMessage('If Priority is C1, Impact must be Extensive/Widespread and Urgency must be Immediate.');
@@ -30,10 +27,9 @@
         }
     }
 
-    // Kiểm tra điều kiện dựa trên ma trận Impact-Urgency-Priority
     if (impact === 'extensive/widespread') {
         if (urgency === 'immediate' && (priority !== 'p1' && priority !== 'c1')) {
-            g_form.addErrorMessage('If Impact is Extensive/Widespread and Urgency is Immediate, Priority must be P1 or C1.');
+            g_form.addErrorMessage('If Impact is Extensive/Widespread and Urgency is Immediate, Priority must be P1.');
             return false;
         } else if (urgency === 'high' && priority !== 'p1') {
             g_form.addErrorMessage('If Impact is Extensive/Widespread and Urgency is High, Priority must be P1.');
@@ -89,7 +85,6 @@
         }
     }
 
-    // Nếu hợp lệ, cho phép submit
     return true;
 }
 ]]></script>
@@ -99,7 +94,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6d9d9b32c38bd2108d241275e401310e</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Priority rules</sys_name>
         <sys_overrides/>
         <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
@@ -107,7 +102,7 @@
         <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
         <sys_update_name>sys_script_client_6d9d9b32c38bd2108d241275e401310e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-05 02:04:45</sys_updated_on>
+        <sys_updated_on>2025-02-05 03:45:51</sys_updated_on>
         <table>u_nam_incident</table>
         <type>onSubmit</type>
         <ui_type>0</ui_type>

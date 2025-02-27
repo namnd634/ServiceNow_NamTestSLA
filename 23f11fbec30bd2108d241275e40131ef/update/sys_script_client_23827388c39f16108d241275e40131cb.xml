@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
@@ -14,7 +14,7 @@
    if (g_user.hasRole("nam-helpdesk")) {
       var state = g_form.getValue('u_incident_state');
 
-      var validStates = ['in_progress'];
+      var validStates = ['in_progress', 'new'];
 
       if (!validStates.includes(state)) {
          g_form.addErrorMessage('You can change the incident state to "In Progress" only!');
@@ -32,7 +32,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>23827388c39f16108d241275e40131cb</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Restrict state for Helpdesk</sys_name>
         <sys_overrides/>
         <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
@@ -40,7 +40,7 @@
         <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
         <sys_update_name>sys_script_client_23827388c39f16108d241275e40131cb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-23 01:17:33</sys_updated_on>
+        <sys_updated_on>2025-02-13 02:11:10</sys_updated_on>
         <table>u_nam_incident</table>
         <type>onSubmit</type>
         <ui_type>0</ui_type>

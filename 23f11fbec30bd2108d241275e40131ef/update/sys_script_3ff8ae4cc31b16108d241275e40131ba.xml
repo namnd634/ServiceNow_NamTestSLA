@@ -3,7 +3,7 @@
         <abort_action>false</abort_action>
         <access>package_private</access>
         <action_delete>false</action_delete>
-        <action_insert>true</action_insert>
+        <action_insert>false</action_insert>
         <action_query>false</action_query>
         <action_update>true</action_update>
         <active>true</active>
@@ -30,18 +30,41 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-	if(!current.u_resolution_time)
-	{
-		var now = new GlideDateTime();
-		current.u_resolution_time = now;
-	}
-    // var gdt1 = new GlideDateTime(current.u_1st_response_time.getDisplayValue());
-    // var gdt2 = new GlideDateTime(gs.nowDateTime());
-    // var dur = GlideDateTime.subtract(gdt1, gdt2); // The difference between gdt1 and gdt2
-    // var dur1 = new GlideDuration();
-    // dur1.setValue(dur.getValue());
-    // current.u_resolution_time_duration = dur1.getDurationValue().toString();
-	
+    // If resolution_time is not set, assign the current time
+    if (!current.u_resolution_time) {
+        var now = new GlideDateTime();
+        current.u_resolution_time = now;
+    }
+
+    // Get the ticket acknowledgment time
+    var gdt1 = new GlideDateTime(current.u_ticket_acknowledgement_time.getDisplayValue());
+
+    // Get the current time (you can replace this with u_resolution_time if needed)
+    var gdt2 = new GlideDateTime(gs.nowDateTime());
+
+    // Calculate the time difference in milliseconds
+    var dur = GlideDateTime.subtract(gdt1, gdt2);
+
+    // Create a GlideDuration object to store the calculated duration
+    var dur1 = new GlideDuration();
+    dur1.setValue(dur.getValue());
+
+    // Convert milliseconds into days, hours, minutes, and seconds
+    var totalSeconds = Math.floor(dur1.getNumericValue() / 1000);
+    var seconds = totalSeconds % 60;
+    var minutes = Math.floor(totalSeconds / 60) % 60;
+    var hours = Math.floor(totalSeconds / 3600) % 24;
+    var days = Math.floor(totalSeconds / 86400);
+
+    // Construct the duration string in English format
+    var durationString = [];
+    if (days > 0) durationString.push(days + (days > 1 ? " days" : " day"));
+    if (hours > 0) durationString.push(hours + (hours > 1 ? " hours" : " hour"));
+    if (minutes > 0) durationString.push(minutes + (minutes > 1 ? " minutes" : " minute"));
+    if (seconds > 0 || durationString.length === 0) durationString.push(seconds + (seconds > 1 ? " seconds" : " second"));
+
+    // Assign the formatted duration to the field
+    current.u_resolution_time_duration = durationString.join(" ");
 
 })(current, previous);
 ]]></script>
@@ -51,7 +74,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3ff8ae4cc31b16108d241275e40131ba</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Set Resolution Time</sys_name>
         <sys_overrides/>
         <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
@@ -59,7 +82,7 @@
         <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
         <sys_update_name>sys_script_3ff8ae4cc31b16108d241275e40131ba</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-23 01:20:48</sys_updated_on>
+        <sys_updated_on>2025-02-13 06:56:58</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

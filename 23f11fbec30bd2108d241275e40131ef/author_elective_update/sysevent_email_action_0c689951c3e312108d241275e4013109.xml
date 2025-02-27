@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="DELETE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>task_sla</collection>
+        <condition table="task_sla">task.assignment_group=21c6e7f9c30b12108d241275e40131db^sla=3e24c0acc39396108d241275e401310a^business_time_left&lt;javascript:gs.getDurationDate('0 0:28:0')^EQ<item display_table="sys_user_group" display_value="Customer Service Group" endquery="false" field="task.assignment_group" goto="false" newquery="false" operator="=" or="false" value="21c6e7f9c30b12108d241275e40131db"/>
+            <item display_table="contract_sla" display_value="P1 1st Response Time" endquery="false" field="sla" goto="false" newquery="false" operator="=" or="false" value="3e24c0acc39396108d241275e401310a"/>
+            <item endquery="false" field="business_time_left" goto="false" newquery="false" operator="&lt;" or="false" value="javascript:gs.getDurationDate('0 0:28:0')"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Task Number: ${task.number}</p>
+<p>20% of the SLA duration has already elapsed for the task.</p>
+<p>You still have ${business_time_left} to complete this task.</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>SLA Response Time</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users>e0e347fdc34712108d241275e401316a</recipient_users>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>SLA 1st Response Time Notification</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-05 04:11:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0c689951c3e312108d241275e4013109</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>SLA Response Time</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
+        <sys_update_name>sysevent_email_action_0c689951c3e312108d241275e4013109</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-05 06:19:16</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</application>
+        <file_path/>
+        <instance_id>8082d2d2ebb7c694e9bbfddacad0cdde</instance_id>
+        <instance_name>dev286046</instance_name>
+        <name>sysevent_email_action_0c689951c3e312108d241275e4013109</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="Uncategorized" name="Uncategorized"&gt;c97d83137f4432005f58108c3ffa917a&lt;/category&gt;&lt;collection&gt;task_sla&lt;/collection&gt;&lt;condition table="task_sla"&gt;task.assignment_group=21c6e7f9c30b12108d241275e40131db^sla=3e24c0acc39396108d241275e401310a^business_time_left&amp;lt;javascript:gs.getDurationDate('0 0:28:0')^EQ&lt;item display_table="sys_user_group" display_value="Customer Service Group" endquery="false" field="task.assignment_group" goto="false" newquery="false" operator="=" or="false" value="21c6e7f9c30b12108d241275e40131db"/&gt;&lt;item display_table="contract_sla" display_value="P1 1st Response Time" endquery="false" field="sla" goto="false" newquery="false" operator="=" or="false" value="3e24c0acc39396108d241275e401310a"/&gt;&lt;item endquery="false" field="business_time_left" goto="false" newquery="false" operator="&amp;lt;" or="false" value="javascript:gs.getDurationDate('0 0:28:0')"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description/&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;enable_dynamic_translation&gt;false&lt;/enable_dynamic_translation&gt;&lt;event_name&gt;activate.life.cycle.migration&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;event&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;Task Number: ${task.number}&lt;/p&gt;
+&lt;p&gt;20% of the SLA duration has already elapsed for the task.&lt;/p&gt;
+&lt;p&gt;You still have ${business_time_left} to complete this task.&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;SLA Response Time&lt;/name&gt;&lt;omit_watermark&gt;false&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields/&gt;&lt;recipient_groups/&gt;&lt;recipient_users&gt;e0e347fdc34712108d241275e401316a&lt;/recipient_users&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;SLA 1st Response Time Notification&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-05 04:11:04&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0c689951c3e312108d241275e4013109&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;SLA Response Time&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef"&gt;23f11fbec30bd2108d241275e40131ef&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Nam Test SLA"&gt;23f11fbec30bd2108d241275e40131ef&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_0c689951c3e312108d241275e4013109&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-05 06:19:16&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template display_value="Unsubscribe and Preferences"&gt;7ed0481f3b0b2200c869c2c703efc487&lt;/template&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1276780988</payload_hash>
+        <record_name>SLA Response Time</record_name>
+        <reverted_from/>
+        <source>be2ef2b5c34712108d241275e4013182</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-05 06:19:16</sys_created_on>
+        <sys_id>16e8b559c36712108d241275e401318a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194d4c34c250000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-05 06:19:16</sys_updated_on>
+        <type>Notification</type>
+        <update_guid>1ae8b55965671210691a10dbc7c7a989</update_guid>
+        <update_guid_history>1ae8b55965671210691a10dbc7c7a989:1276780988,f947f9d56e671210a689886a249014f5:-1772780936,7cc67dd52b671210d32d07e1007750a4:121145236,9fc47155a3671210e81e7ec3c96c8b00:115840223,a81471156367121025de893da8c29be1:1001111825,1273e111c02712103c88afac0d5d43bf:-1163392185,0772a59d7de312108080361fc8f24456:-1524131657,1dd12d5d7ce31210347f3db97506fbf0:297317537,2c016d1d71e312102eb2cd956078a030:2136815816,f8e0a51de8e312103124535c88906261:-990931103,904fd599efe31210f0c425ad0f91430f:1113813710,018ed559c2e312106714dfcd90d5895d:-599861962,2b6dd1d578e312102a7b2c1185c6ff59:-442132012,e49b955508e3121061364670afc8fcb2:-1292123024</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-05 06:37:13</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_email_action">sysevent_email_action</sys_db_object>
+        <sys_id>24883dc445934272868f5c252ea255e4</sys_id>
+        <sys_metadata>0c689951c3e312108d241275e4013109</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLA Response Time</sys_name>
+        <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
+        <sys_parent display_value="Task SLA">99e45b24dcd212104f34465061b06a6b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
+        <sys_scope_delete display_value="">169c01ada58a459c93bc4e98a68a3610</sys_scope_delete>
+        <sys_update_name>sysevent_email_action_0c689951c3e312108d241275e4013109</sys_update_name>
+        <sys_update_version display_value="sysevent_email_action_0c689951c3e312108d241275e4013109">16e8b559c36712108d241275e401318a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-05 06:37:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

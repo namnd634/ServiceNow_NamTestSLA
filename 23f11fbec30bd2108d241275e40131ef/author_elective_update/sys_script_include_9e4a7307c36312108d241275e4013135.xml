@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>global.DelayedAssignedToUpdate</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>DelayedAssignedToUpdate</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var DelayedAssignedToUpdate = Class.create();
+DelayedAssignedToUpdate.prototype = {
+    initialize: function() {},
+
+    updateAssignedTo: function(incidentId, assignedTo) {
+        var inc = new GlideRecord('incident');
+        if (inc.get(incidentId)) {
+            inc.u_incident_assigned_to = assignedTo;
+            inc.update();
+        }
+    },
+
+    type: 'DelayedAssignedToUpdate'
+};
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 02:14:37</sys_created_on>
+        <sys_id>9e4a7307c36312108d241275e4013135</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DelayedAssignedToUpdate</sys_name>
+        <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
+        <sys_update_name>sys_script_include_9e4a7307c36312108d241275e4013135</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 02:14:37</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="DELETE">
+        <id>9e4a7307c36312108d241275e4013135</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 02:14:36</sys_created_on>
+        <sys_id>c97a7b83c36312108d241275e401313e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 02:14:36</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</application>
+        <file_path/>
+        <instance_id>8082d2d2ebb7c694e9bbfddacad0cdde</instance_id>
+        <instance_name>dev286046</instance_name>
+        <name>sys_script_include_9e4a7307c36312108d241275e4013135</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.DelayedAssignedToUpdate&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;DelayedAssignedToUpdate&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var DelayedAssignedToUpdate = Class.create();
+DelayedAssignedToUpdate.prototype = {
+    initialize: function() {},
+
+    updateAssignedTo: function(incidentId, assignedTo) {
+        var inc = new GlideRecord('incident');
+        if (inc.get(incidentId)) {
+            inc.u_incident_assigned_to = assignedTo;
+            inc.update();
+        }
+    },
+
+    type: 'DelayedAssignedToUpdate'
+};
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-11 02:14:37&lt;/sys_created_on&gt;&lt;sys_id&gt;9e4a7307c36312108d241275e4013135&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;DelayedAssignedToUpdate&lt;/sys_name&gt;&lt;sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef"&gt;23f11fbec30bd2108d241275e40131ef&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Nam Test SLA"&gt;23f11fbec30bd2108d241275e40131ef&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_9e4a7307c36312108d241275e4013135&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-11 02:14:37&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;9e4a7307c36312108d241275e4013135&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-11 02:14:36&lt;/sys_created_on&gt;&lt;sys_id&gt;c97a7b83c36312108d241275e401313e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-11 02:14:36&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-323468652</payload_hash>
+        <record_name>DelayedAssignedToUpdate</record_name>
+        <reverted_from/>
+        <source>be2ef2b5c34712108d241275e4013182</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 02:14:37</sys_created_on>
+        <sys_id>cd7a3707c36312108d241275e401311e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194f2c979040000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 02:14:37</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>c17a37075d631210cd19a4e43bfc741e</update_guid>
+        <update_guid_history>c17a37075d631210cd19a4e43bfc741e:-323468652</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 02:17:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>53b5d7f8536a4a28829ceee974d62110</sys_id>
+        <sys_metadata>9e4a7307c36312108d241275e4013135</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DelayedAssignedToUpdate</sys_name>
+        <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
+        <sys_scope_delete display_value="">169c01ada58a459c93bc4e98a68a3610</sys_scope_delete>
+        <sys_update_name>sys_script_include_9e4a7307c36312108d241275e4013135</sys_update_name>
+        <sys_update_version display_value="sys_script_include_9e4a7307c36312108d241275e4013135">cd7a3707c36312108d241275e401311e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 02:17:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

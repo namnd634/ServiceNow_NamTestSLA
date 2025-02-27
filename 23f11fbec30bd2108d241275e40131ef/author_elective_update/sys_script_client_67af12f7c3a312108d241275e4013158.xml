@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Assigned to update State only</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+    // Lấy user hiện tại
+    var currentUser = g_user.userID;
+    
+    // Lấy giá trị của field Assigned To
+    var assignedTo = g_form.getValue('u_incident_assigned_to');
+
+    // Kiểm tra nếu người dùng hiện tại không phải là Assigned To nhưng cố gắng chỉnh sửa state
+    if (assignedTo !== currentUser && g_form.isModified('u_incident_state')) {
+        alert("You do not have permission to update State of this incident!");
+        return false; // Chặn việc submit form
+    }
+
+    return true; // Cho phép submit nếu hợp lệ
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-13 03:36:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>67af12f7c3a312108d241275e4013158</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assigned to update State only</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
+        <sys_update_name>sys_script_client_67af12f7c3a312108d241275e4013158</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-13 03:36:36</sys_updated_on>
+        <table>u_nam_incident</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</application>
+        <file_path/>
+        <instance_id>8082d2d2ebb7c694e9bbfddacad0cdde</instance_id>
+        <instance_name>dev286046</instance_name>
+        <name>sys_script_client_67af12f7c3a312108d241275e4013158</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Assigned to update State only&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+    // Lấy user hiện tại
+    var currentUser = g_user.userID;
+    
+    // Lấy giá trị của field Assigned To
+    var assignedTo = g_form.getValue('u_incident_assigned_to');
+
+    // Kiểm tra nếu người dùng hiện tại không phải là Assigned To nhưng cố gắng chỉnh sửa state
+    if (assignedTo !== currentUser &amp;&amp; g_form.isModified('u_incident_state')) {
+        alert("You do not have permission to update State of this incident!");
+        return false; // Chặn việc submit form
+    }
+
+    return true; // Cho phép submit nếu hợp lệ
+}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-13 03:36:36&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;67af12f7c3a312108d241275e4013158&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Assigned to update State only&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef"&gt;23f11fbec30bd2108d241275e40131ef&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Nam Test SLA"&gt;23f11fbec30bd2108d241275e40131ef&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_67af12f7c3a312108d241275e4013158&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-13 03:36:36&lt;/sys_updated_on&gt;&lt;table&gt;u_nam_incident&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2111155297</payload_hash>
+        <record_name>Assigned to update State only</record_name>
+        <reverted_from/>
+        <source>be2ef2b5c34712108d241275e4013182</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-13 03:36:36</sys_created_on>
+        <sys_id>ed606ef7c3a312108d241275e40131d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194fd613fa00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-13 03:36:36</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>e1606ef7a7a31210b9033890632c99d2</update_guid>
+        <update_guid_history>e1606ef7a7a31210b9033890632c99d2:2111155297</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-13 03:40:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>8c345bfcf3d04df394630ee8e82a6bc9</sys_id>
+        <sys_metadata>67af12f7c3a312108d241275e4013158</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assigned to update State only</sys_name>
+        <sys_package display_value="Nam Test SLA" source="23f11fbec30bd2108d241275e40131ef">23f11fbec30bd2108d241275e40131ef</sys_package>
+        <sys_parent display_value="Nam Incident">3b925b32c34bd2108d241275e401312a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Nam Test SLA">23f11fbec30bd2108d241275e40131ef</sys_scope>
+        <sys_scope_delete display_value="">169c01ada58a459c93bc4e98a68a3610</sys_scope_delete>
+        <sys_update_name>sys_script_client_67af12f7c3a312108d241275e4013158</sys_update_name>
+        <sys_update_version display_value="sys_script_client_67af12f7c3a312108d241275e4013158">ed606ef7c3a312108d241275e40131d2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-13 03:40:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

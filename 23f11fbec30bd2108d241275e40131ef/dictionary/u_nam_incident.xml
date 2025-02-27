@@ -13,7 +13,7 @@
         </element>
         <element label="Incident Short Description" mandatory="true" max_length="40" name="u_incident_short_description" type="string"/>
         <element label="Resolution Time Duration" max_length="40" name="u_resolution_time_duration" read_only="true" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Incident Priority" max_length="40" name="u_incident_priority" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="p4" label="Incident Priority" max_length="40" name="u_incident_priority" type="choice">
             <choice>
                 <element inactive_on_update="false" label="C1" value="c1"/>
                 <element inactive_on_update="false" label="P2" value="p2"/>
@@ -22,7 +22,7 @@
                 <element inactive_on_update="false" label="P4" value="p4"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Incident Urgency" max_length="40" name="u_incident_urgency" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="low" label="Incident Urgency" max_length="40" name="u_incident_urgency" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Immediate" sequence="0" value="immediate"/>
                 <element inactive_on_update="false" label="Medium" sequence="2" value="medium"/>
@@ -33,7 +33,7 @@
         <element label="Incident Assignment group" max_length="32" name="u_incident_assignment_group" reference="sys_user_group" type="reference"/>
         <element label="Ticket Acknowledgement Time" max_length="40" name="u_ticket_acknowledgement_time" read_only="true" type="glide_date_time"/>
         <element label="Incident Description" max_length="40" name="u_incident_description" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Incident Impact" max_length="40" name="u_incident_impact" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="low" label="Incident Impact" max_length="40" name="u_incident_impact" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Significant/Large" sequence="1" value="significant/large"/>
                 <element inactive_on_update="false" label="Low" sequence="3" value="low"/>
